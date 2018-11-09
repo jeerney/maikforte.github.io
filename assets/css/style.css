@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .page_container {
+    height: 745px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.row {
+    flex-direction: row;
+}
+
+.flex.column {
+    flex-direction: column;
+}
