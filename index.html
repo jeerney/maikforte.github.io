@@ -9,6 +9,8 @@
 
 <body class="container">
     <div class="page-container flex column align-center justify-center">
+        <div class="banner home"></div>
+        <!-- <div class="banner-gradient home"></div> -->
         <img src="assets/images/hd-manpower-logo.png" />
         <h1 class="black">HD Manpower</h1>
 
@@ -28,6 +30,18 @@
     </div>
 
     <object id="about" class="page-container" type="text/html" data="pages/about.html"></object>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
