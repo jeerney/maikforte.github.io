@@ -89,6 +89,12 @@ p {
     flex-wrap: wrap;
 }
 
+.flex.col-50 {
+    flex-grow: 50%;
+    width: 50%;
+    max-width: 50%;
+}
+
 .navigation .nav-item {
     font-size: 28px;
     margin-left: 10px;
@@ -168,4 +174,8 @@ p {
 
 .partners-logo img {
     width: 100%;
+}
+
+.text-center {
+    text-align: center;
 }
