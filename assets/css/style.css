@@ -13,6 +13,7 @@ body {
 
 p {
     font-size: 21px;
+    font-weight: 300;
 }
 
 .primary-font-color {
@@ -178,4 +179,10 @@ p {
 
 .text-center {
     text-align: center;
+}
+
+.image-wrap {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
 }
