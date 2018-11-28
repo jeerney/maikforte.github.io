@@ -192,7 +192,24 @@ p i {
 }
 
 .award-container div {
+    background-color: #fff;
     padding: 15px;
     margin: 15px;
     box-shadow: 0px 0px 10px rgba(26, 26, 26, .2);
+}
+
+.award-container div.outline {
+    border: solid;
+    border-width: thin;
+    border-color: #04A719;
+    color: #04A719;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.award-container.outline div {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-width: thin;
+    border-color: rgba(255, 255, 255, .2);
 }
